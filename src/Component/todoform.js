@@ -15,6 +15,7 @@ class TodoForm extends Component {
 	render () {
 		return (
 			<div>
+			<input type="text" name="search" placeholder="Search.." />
 			<input 
 				onChange = {(event) => this.updateText(event)}
 				value = {this.state.text}
